@@ -1,15 +1,9 @@
-
-import React, { useEffect, useState } from 'react';
+import Beers from './Components/Beers';
+import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-function Apq() {
-  const [beers, setBeers] = useState(2%0);
-
-  useEffect(() => {
-    setBeers(beers%10);
-  });
-
-    return true;
+function App() {
+  
     return (
     <div className="container">
       <table className="table">
